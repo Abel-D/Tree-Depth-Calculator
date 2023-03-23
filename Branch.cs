@@ -12,6 +12,11 @@ namespace Tree_Of_Branches
         {
 
         }
-       public List<Branch> branches { get; set; };
+        public List<Branch> branches;
+
+        public void AddBranch(List<Branch> branch)
+        {
+            branches.AddRange(branch);
+        }
     }
 }

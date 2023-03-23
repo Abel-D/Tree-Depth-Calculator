@@ -13,10 +13,10 @@ namespace Tree_Of_Branches
 
         public static int CalculateTreeDepth(Branch branch)
         {
-            foreach (var br in branch.branches)
+           foreach (var br in branch.branches)
             {
 
-                while (br.branches != null)
+                if (br.branches != null)
                 {
                     temp++;
                     CalculateTreeDepth(br);
@@ -25,6 +25,7 @@ namespace Tree_Of_Branches
                 {
                     depth = temp;
                 }
+                temp = 1;
             }
             return depth;
         }
