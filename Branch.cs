@@ -12,6 +12,6 @@ namespace Tree_Of_Branches
         {
 
         }
-        List<Branch> branches;
+       public List<Branch> branches { get; set; };
     }
 }
