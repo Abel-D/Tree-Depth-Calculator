@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree-Of-Branches", "Tree-Of-Branches.csproj", "{48363643-AE29-4C77-A38C-FD3A84568BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree-Of-Branches", "Src\Tree-Of-Branches.csproj", "{48363643-AE29-4C77-A38C-FD3A84568BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-Of-Branches.Tests", "Tree-Of-Branches.Tests\Tree-Of-Branches.Tests.csproj", "{CC7BF771-2E49-4F5C-867C-80765CF55987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{48363643-AE29-4C77-A38C-FD3A84568BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48363643-AE29-4C77-A38C-FD3A84568BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48363643-AE29-4C77-A38C-FD3A84568BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7BF771-2E49-4F5C-867C-80765CF55987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7BF771-2E49-4F5C-867C-80765CF55987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7BF771-2E49-4F5C-867C-80765CF55987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7BF771-2E49-4F5C-867C-80765CF55987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

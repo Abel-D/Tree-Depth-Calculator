@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tree_Of_Branches
 {
-    internal static class TreeDepthCalculator
+    public static class TreeDepthCalculator
     {
         static int temp = 1;
         static int depth = 0;

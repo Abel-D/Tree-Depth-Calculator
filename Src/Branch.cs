@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tree_Of_Branches
 {
-    internal class Branch
+    public class Branch
     {
         public Branch()
         {
