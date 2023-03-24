@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Src\Tree-Of-Branches.csproj" />
+    <ProjectReference Include="..\..\Src\Tree-Of-Branches.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree-Of-Branches", "Src\Tree-Of-Branches.csproj", "{48363643-AE29-4C77-A38C-FD3A84568BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-Of-Branches.Tests", "Tree-Of-Branches.Tests\Tree-Of-Branches.Tests.csproj", "{CC7BF771-2E49-4F5C-867C-80765CF55987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-Of-Branches.Tests", "Tests\Tree-Of-Branches.Tests\Tree-Of-Branches.Tests.csproj", "{CC7BF771-2E49-4F5C-867C-80765CF55987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
