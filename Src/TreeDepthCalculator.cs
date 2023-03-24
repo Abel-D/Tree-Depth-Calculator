@@ -9,7 +9,7 @@ namespace Tree_Of_Branches
     public static class TreeDepthCalculator
     {
         static int temp = 1;
-        static int depth = 0;
+        static int depth = temp;
 
         public static int CalculateTreeDepth(Branch branch)
         {
