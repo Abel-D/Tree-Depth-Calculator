@@ -64,14 +64,11 @@ This project library contains app logic to calculate the depth of a nested tree 
                 new Branch() { branches = new List<Branch>()
             }
         }
-
     }
     }
 };
  ### Recursive calculation Logic 
-  
-    public static class TreeDepthCalculator
-    {
+namespace Tree_Of_Branches
         static int temp = 1;
         static int depth = temp;
 
@@ -92,17 +89,11 @@ This project library contains app logic to calculate the depth of a nested tree 
                 temp = 1;
             }
             return depth;
-        }
-    }
-}
+       }
  ## Tree-Of-Branchs.Test
  This is a xunit test project for the above implementation logic.
  namespace Tree_Of_Branches.Tests
-{
-    public class TreeDepthCalculatorTests
-    {
-        [Fact]
-        public void should_calculate_correct_depth()
+        void should_calculate_correct_depth()
         {
             //arrange
             Branch branch = new Branch()
@@ -117,5 +108,4 @@ This project library contains app logic to calculate the depth of a nested tree 
             Assert.True(result == 1);
             Assert.IsAssignableFrom<int>(result);
         }
-    }
-}
+   
