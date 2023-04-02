@@ -6,7 +6,7 @@
               public List<Branch>? branches;
           }
   ### Test Model
-     https://drive.google.com/file/d/1hrP5a5kbuvHd8wxxyzgzlLTrYkt1Iuuo/view?usp=sharing
+    <a href="https://drive.google.com/file/d/1hrP5a5kbuvHd8wxxyzgzlLTrYkt1Iuuo/view?usp=sharing">Given structure</a>
     
     // Root node of the tree
         Branch root = new Branch()
