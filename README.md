@@ -1,10 +1,10 @@
 #Tree-Of-Branches
-This project library contains app logic to calculate the depth of a nested tree structure. 
+   This project library contains app logic to calculate the depth of a nested tree structure. 
 ## Structure
- public class Branch
-    {
-        public List<Branch>? branches;
-    }
+       public class Branch
+          {
+              public List<Branch>? branches;
+          }
 ### Test Model
         Branch root = new Branch()
         {
