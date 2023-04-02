@@ -1,5 +1,5 @@
-#Tree-Of-Branches
-   This project library contains app logic to calculate the depth of a nested tree structure. 
+# Tree-Of-Branches
+  This project library contains app logic to calculate the depth of a nested tree structure. 
 ## Structure
        public class Branch
           {
