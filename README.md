@@ -6,7 +6,7 @@
               public List<Branch>? branches;
           }
   ### Test Model
-   ### [Given Structure](https://drive.google.com/file/d/1hrP5a5kbuvHd8wxxyzgzlLTrYkt1Iuuo/view?usp=sharing)
+   ![sample used structure](https://github.com/Abel-D/Tree-Depth-Calculator/blob/master/img/tree.PNG)
     
     // Root node of the tree
         Branch root = new Branch()
