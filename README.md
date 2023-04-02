@@ -5,8 +5,9 @@
           {
               public List<Branch>? branches;
           }
+          
+          ![alt text](https://drive.google.com/file/d/1hrP5a5kbuvHd8wxxyzgzlLTrYkt1Iuuo/view?usp=sharing)
 ### Test Model
-![alt text](https://drive.google.com/file/d/1hrP5a5kbuvHd8wxxyzgzlLTrYkt1Iuuo/view?usp=sharing)
       // Root node of the tree
         Branch root = new Branch()
         {
