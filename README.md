@@ -6,6 +6,8 @@
               public List<Branch>? branches;
           }
 ### Test Model
+![alt text](https://drive.google.com/file/d/1hrP5a5kbuvHd8wxxyzgzlLTrYkt1Iuuo/view?usp=sharing)
+      // Root node of the tree
         Branch root = new Branch()
         {
           branches = new List<Branch>()
@@ -64,7 +66,7 @@
                         new Branch() { branches = new List<Branch>()
                     }
                 }
-    }
+           }
     }
 };
  ### Recursive calculation Logic 
