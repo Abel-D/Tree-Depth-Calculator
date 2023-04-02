@@ -68,7 +68,7 @@
     }
 };
  ### Recursive calculation Logic 
-        ####namespace Tree_Of_Branches
+  #### namespace Tree_Of_Branches
         static int temp = 1;
         static int depth = temp;
 
@@ -92,7 +92,7 @@
  ## Tree-Of-Branchs.Test
  This is a xunit test project for the above implementation logic.
         
-        ####namespace Tree_Of_Branches.Tests
+   #### namespace Tree_Of_Branches.Tests
         void should_calculate_correct_depth()
         {
             //arrange
